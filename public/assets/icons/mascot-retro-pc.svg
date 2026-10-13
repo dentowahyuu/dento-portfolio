@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Retro Computer Body -->
+  <rect x="20" y="15" width="80" height="70" rx="12" fill="#ebe8df" stroke="#1a3a2f" stroke-width="4"/>
+  <!-- Screen Recess -->
+  <rect x="28" y="23" width="64" height="46" rx="6" fill="#1a3a2f" stroke="#1a3a2f" stroke-width="2"/>
+  <!-- CRT Screen Glow -->
+  <rect x="31" y="26" width="58" height="40" rx="4" fill="#02241a"/>
+  <!-- Terminal Prompt & Mascot Face -->
+  <circle cx="48" cy="42" r="3" fill="#ff6e41"/>
+  <circle cx="72" cy="42" r="3" fill="#ff6e41"/>
+  <path d="M50 54 Q60 62 70 54" stroke="#abcebf" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Floppy Drive Slot -->
+  <rect x="70" y="74" width="22" height="3" rx="1.5" fill="#1a3a2f"/>
+  <!-- Rainbow Accent Stripe -->
+  <rect x="28" y="73" width="6" height="5" rx="1" fill="#ff6e41"/>
+  <!-- Base Stand -->
+  <path d="M35 85 L30 102 L90 102 L85 85 Z" fill="#dddad1" stroke="#1a3a2f" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Status LED -->
+  <circle cx="38" cy="75.5" r="2" fill="#82a496"/>
+</svg>

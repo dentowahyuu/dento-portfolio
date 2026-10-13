@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none">
+  <!-- Retro Stamp Oval Badge -->
+  <rect x="4" y="4" width="152" height="72" rx="36" fill="#fcf9f0" stroke="#1a3a2f" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="10" y="10" width="140" height="60" rx="30" fill="#ff6e41" stroke="#1a3a2f" stroke-width="2.5"/>
+  <text x="80" y="36" font-family="'Oswald', sans-serif" font-weight="700" font-size="16" fill="#fcf9f0" text-anchor="middle" letter-spacing="2">HAND-CRAFTED</text>
+  <text x="80" y="52" font-family="'Space Mono', monospace" font-size="10" fill="#ffdbd1" text-anchor="middle" letter-spacing="1">100% TYPE-SAFE</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Pour-over Carafe -->
+  <path d="M40 25 L60 25 L75 75 C75 82 65 88 50 88 C35 88 25 82 25 75 Z" fill="#fcf9f0" stroke="#1a3a2f" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- Coffee Liquid -->
+  <path d="M30 65 Q50 68 70 65 L73 75 C73 80 63 85 50 85 C37 85 27 80 27 75 Z" fill="#ac3407"/>
+  <!-- Handle -->
+  <path d="M72 38 C88 38 88 65 72 70" stroke="#1a3a2f" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Dripper top -->
+  <path d="M32 15 L68 15 L60 25 L40 25 Z" fill="#ff6e41" stroke="#1a3a2f" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Steam curls -->
+  <path d="M46 10 Q43 5 46 2" stroke="#82a496" stroke-width="2" stroke-linecap="round"/>
+  <path d="M54 10 Q57 5 54 2" stroke="#82a496" stroke-width="2" stroke-linecap="round"/>
+</svg>

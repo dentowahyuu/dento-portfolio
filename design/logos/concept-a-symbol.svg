@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Architectural DW Monogram</title>
+  <!-- Outer D Stem (Left Vertical Column) -->
+  <path d="M 44 48 L 84 48 L 84 208 L 44 208 Z" fill="#02241A" />
+  
+  <!-- Upper D Arch -->
+  <path d="M 84 48 L 152 48 C 188 48 212 72 212 108 C 212 128 202 144 186 156 L 154 124 C 160 118 164 112 164 104 C 164 88 152 80 136 80 L 84 80 Z" fill="#02241A" />
+  
+  <!-- Lower D Arch returning to base -->
+  <path d="M 84 176 L 136 176 C 148 176 158 172 166 164 L 194 192 C 178 204 158 208 136 208 L 84 208 Z" fill="#02241A" />
+  
+  <!-- Interlocking W Center (Terracotta Accent) -->
+  <path d="M 98 116 L 126 116 L 148 176 L 126 176 Z" fill="#AC3407" />
+  <path d="M 148 176 L 170 116 L 196 116 L 168 188 L 148 188 Z" fill="#AC3407" />
+  <rect x="98" y="148" width="22" height="28" fill="#AC3407" />
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Artisan Terminal Diamond Emblem</title>
+  <!-- Outer Chamfered Diamond Badge (Vintage Stamp Contour) -->
+  <path d="M 128 36 L 204 112 C 214 122 214 134 204 144 L 144 204 C 134 214 122 214 112 204 L 52 144 C 42 134 42 122 52 112 L 112 52 C 122 42 124 36 128 36 Z" 
+        fill="#02241A" />
+  
+  <!-- Inner Diamond Cutout (creates border ring) -->
+  <path d="M 128 56 L 192 120 C 196 124 196 132 192 136 L 136 192 C 132 196 124 196 120 192 L 64 136 C 60 132 60 124 64 120 L 120 64 C 124 60 126 56 128 56 Z" 
+        fill="#FCF9F0" />
+
+  <!-- Code Prompt Chevron ( > ) -->
+  <path d="M 88 94 L 122 128 L 88 162 L 102 176 L 150 128 L 102 80 Z" fill="#AC3407" />
+
+  <!-- Terminal Cursor Underline Bar ( _ ) -->
+  <rect x="136" y="156" width="36" height="14" rx="2" fill="#02241A" />
+
+  <!-- Subtle Precision Spark at Top Right -->
+  <polygon points="152,86 156,76 160,86 170,90 160,94 156,104 152,94 142,90" fill="#AC3407" />
+</svg>
