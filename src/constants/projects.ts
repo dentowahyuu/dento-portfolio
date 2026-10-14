@@ -85,7 +85,7 @@ export const FEATURED_PROJECTS: Project[] = [
     id: 6,
     systemCode: "SYS-06 • ATTENDANCE & AI",
     version: "v2.0",
-    title: "HadirYuk — Sistem Presensi & Dashboard",
+    title: "HadirYuk — Smart Attendance & Dashboard",
     description:
       "Enterprise employee attendance system featuring an AI-powered face verification engine, GPS geofencing, real-time logging, and an executive admin analytics dashboard.",
     image: "/projects/Project-Absen.png",
