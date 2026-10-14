@@ -1,16 +1,9 @@
 import React from "react";
-import Image from "next/image";
 import { CheckerDivider } from "@/components/common/CheckerDivider";
 import { MarqueeTicker } from "@/components/common/MarqueeTicker";
 import { Button } from "@/components/ui/Button";
 
-interface HeroSectionProps {
-  showIllustration?: boolean;
-}
-
-export const HeroSection: React.FC<HeroSectionProps> = ({
-  showIllustration = true,
-}) => {
+export const HeroSection: React.FC = () => {
   return (
     <section className="relative w-full bg-surface pt-10 pb-16 overflow-hidden">
       {/* Checkerboard Accent Top Track */}
@@ -69,51 +62,27 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <span className="material-symbols-outlined text-sm">menu_book</span>
             </Button>
           </div>
-        </div>
 
-        {/* Focal Workstation Image (Framed cleanly beneath the text, NO overlapping negative margins) */}
-        {showIllustration && (
-          <div className="mt-12 w-full max-w-4xl mx-auto">
-            <div className="rounded-2xl overflow-hidden shadow-[6px_6px_0px_#1a3a2f] bg-surface-container-lowest border-2 border-primary-container">
-              {/* Retro Window Titlebar */}
-              <div className="bg-surface-container-high px-4 py-2.5 border-b-2 border-primary-container flex items-center justify-between select-none">
-                <div className="flex items-center gap-2">
-                  <span className="w-3 h-3 rounded-full bg-secondary-container border border-primary-container/30"></span>
-                  <span className="w-3 h-3 rounded-full bg-[#f4b400] border border-primary-container/30"></span>
-                  <span className="w-3 h-3 rounded-full bg-[#0f9d58] border border-primary-container/30"></span>
-                  <span className="ml-2 font-label-code text-xs text-on-surface-variant font-bold tracking-wide">
-                    workstation-topology.sh
-                  </span>
-                </div>
-                <span className="font-label-stamp text-[10px] uppercase tracking-widest text-secondary font-bold bg-surface-bright px-2 py-0.5 rounded border border-primary-container/20">
-                  EST. 2024
-                </span>
-              </div>
-
-              {/* Workstation Illustration Container */}
-              <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] bg-surface-container">
-                <Image
-                  src="/assets/images/workstation-hero.png"
-                  alt="Isometric developer workstation illustration with retro computer and architecture blocks"
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 896px"
-                  className="object-cover transform hover:scale-[1.01] transition-transform duration-500 block"
-                  priority
-                />
-
-                {/* Active Status Badge Overlay */}
-                <div className="absolute bottom-4 left-4 bg-primary-container/95 text-surface-bright px-3 py-1 rounded-full text-label-code font-label-code backdrop-blur-sm flex items-center gap-2 shadow-sm border border-primary-fixed-dim/20">
-                  <span className="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
-                  <span>WORKSTATION_STATE: ACTIVE // REMOTE_DEV</span>
-                </div>
-              </div>
+          {/* Quick Highlight Pills (Clean, crisp, no blurry AI images) */}
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <div className="flex items-center gap-2 px-3.5 py-1.5 bg-surface-bright rounded-full border border-primary-container/20 shadow-[2px_2px_0px_#1a3a2f] text-label-code text-xs font-label-code text-on-surface-variant">
+              <span className="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+              <span>AVAILABLE FOR ROLES &amp; CONTRACTS</span>
+            </div>
+            <div className="flex items-center gap-2 px-3.5 py-1.5 bg-surface-bright rounded-full border border-primary-container/20 shadow-[2px_2px_0px_#1a3a2f] text-label-code text-xs font-label-code text-on-surface-variant">
+              <span className="text-secondary font-bold">⚡</span>
+              <span>NEXT.JS • TYPESCRIPT • GOLANG • NODE</span>
+            </div>
+            <div className="flex items-center gap-2 px-3.5 py-1.5 bg-surface-bright rounded-full border border-primary-container/20 shadow-[2px_2px_0px_#1a3a2f] text-label-code text-xs font-label-code text-on-surface-variant">
+              <span className="text-secondary font-bold">📍</span>
+              <span>JAKARTA &amp; REMOTE</span>
             </div>
           </div>
-        )}
+        </div>
       </div>
 
       {/* Marquee Ticker */}
-      <MarqueeTicker className="mt-16" />
+      <MarqueeTicker className="mt-14" />
     </section>
   );
 };
