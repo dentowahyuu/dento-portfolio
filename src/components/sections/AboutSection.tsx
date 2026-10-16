@@ -90,9 +90,10 @@ export const AboutSection: React.FC = () => {
             <div className="bg-surface-bright p-5 rounded-2xl shadow-[4px_4px_0px_#1a3a2f] border border-primary-container/20 flex flex-col sm:flex-row items-center gap-6">
               <div className="relative w-36 h-36 flex-shrink-0 rounded-xl overflow-hidden shadow-[2px_2px_0px_#1a3a2f] bg-surface-container border border-primary-container/20">
                 <Image
-                  src="/assets/images/denn.webp"
+                  src="/assets/images/denn.png"
                   alt="Dento Wahyu portrait"
                   fill
+                  quality={95}
                   sizes="144px"
                   className="object-cover"
                 />

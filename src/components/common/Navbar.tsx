@@ -70,9 +70,10 @@ export const Navbar: React.FC = () => {
 
             <div className="relative w-8 h-8 sm:w-9 sm:h-9 rounded-full overflow-hidden border-[1.5px] border-primary-container flex-shrink-0 shadow-[1px_1px_0px_#1a3a2f]">
               <Image
-                src="/assets/images/denn.webp"
+                src="/assets/images/denn.png"
                 alt="Dento Wahyu Profile"
                 fill
+                quality={95}
                 sizes="36px"
                 className="object-cover"
                 priority
