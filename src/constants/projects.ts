@@ -8,7 +8,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Point of Sales Matcha",
     description:
       "A streamlined Point of Sale system designed for cafes, managing real-time inventory and seamless sales transactions.",
-    image: "/projects/Project-POS.png",
+    image: "/projects/Project-POS.webp",
     metric: {
       icon: "⚡",
       label: "Real-Time Inventory",
@@ -24,7 +24,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Digital Wedding Invitation",
     description:
       "Digital invitation system with automated RSVP and QR-based guest attendance management.",
-    image: "/projects/Project-Wedding.png",
+    image: "/projects/Project-Wedding.webp",
     metric: {
       icon: "🎟️",
       label: "QR-Based Attendance",
@@ -40,7 +40,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Gojira Tuners E-Commerce",
     description:
       "A high-speed digital marketplace for premium tuning components like turbos and performance exhausts.",
-    image: "/projects/Project-Gojira.png",
+    image: "/projects/Project-Gojira.webp",
     metric: {
       icon: "🏎️",
       label: "Performance Catalog",
@@ -56,7 +56,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Rental Car UI Design",
     description:
       "Digital car rental platform featuring real-time fleet management and seamless booking for MPVs and SUVs.",
-    image: "/projects/Project-Rental.png",
+    image: "/projects/Project-Rental.webp",
     metric: {
       icon: "🎨",
       label: "Design System in Figma",
@@ -72,7 +72,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Quran-Qu — Mobile Digital Quran App",
     description:
       "Cross-platform mobile Al-Quran application featuring real-time surah search, Indonesian translation, transliteration, and verse-by-verse audio recitation playback.",
-    image: "/projects/Project-Quran.jpg",
+    image: "/projects/Project-Quran.webp",
     metric: {
       icon: "🎧",
       label: "Recitation Playback",
@@ -88,7 +88,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "HadirYuk — Smart Attendance & Dashboard",
     description:
       "Enterprise employee attendance system featuring an AI-powered face verification engine, GPS geofencing, real-time logging, and an executive admin analytics dashboard.",
-    image: "/projects/Project-Absen.png",
+    image: "/projects/Project-Absen.webp",
     metric: {
       icon: "👁️",
       label: "AI Face & Geofence Verification",

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { CheckerDivider } from "@/components/common/CheckerDivider";
 import { ARCHITECTURAL_PILLARS } from "@/constants/projects";
 import { Button } from "@/components/ui/Button";
+import { Icon } from "@/components/ui/Icon";
 
 export const AboutSection: React.FC = () => {
   return (
@@ -61,27 +62,21 @@ export const AboutSection: React.FC = () => {
             {/* Metrics Pill Tags */}
             <div className="flex flex-wrap gap-3 pt-4">
               <div className="flex items-center gap-2 px-4 py-2 bg-surface-bright rounded-full shadow-[2px_2px_0px_#1a3a2f] border border-primary-container/20">
-                <span className="material-symbols-outlined text-secondary text-lg">
-                  history_edu
-                </span>
+                <Icon name="history_edu" size={20} className="text-secondary" />
                 <span className="font-headline-sm text-headline-sm uppercase text-primary-container text-sm sm:text-base">
                   2+ Years Engineering
                 </span>
               </div>
 
               <div className="flex items-center gap-2 px-4 py-2 bg-surface-bright rounded-full shadow-[2px_2px_0px_#1a3a2f] border border-primary-container/20">
-                <span className="material-symbols-outlined text-secondary text-lg">
-                  terminal
-                </span>
+                <Icon name="terminal" size={20} className="text-secondary" />
                 <span className="font-headline-sm text-headline-sm uppercase text-primary-container text-sm sm:text-base">
                   Golang &amp; Node.js
                 </span>
               </div>
 
               <div className="flex items-center gap-2 px-4 py-2 bg-surface-bright rounded-full shadow-[2px_2px_0px_#1a3a2f] border border-primary-container/20">
-                <span className="material-symbols-outlined text-secondary text-lg">
-                  palette
-                </span>
+                <Icon name="palette" size={20} className="text-secondary" />
                 <span className="font-headline-sm text-headline-sm uppercase text-primary-container text-sm sm:text-base">
                   Next.js &amp; Figma
                 </span>
@@ -95,7 +90,7 @@ export const AboutSection: React.FC = () => {
             <div className="bg-surface-bright p-5 rounded-2xl shadow-[4px_4px_0px_#1a3a2f] border border-primary-container/20 flex flex-col sm:flex-row items-center gap-6">
               <div className="relative w-36 h-36 flex-shrink-0 rounded-xl overflow-hidden shadow-[2px_2px_0px_#1a3a2f] bg-surface-container border border-primary-container/20">
                 <Image
-                  src="/assets/images/denn.png"
+                  src="/assets/images/denn.webp"
                   alt="Dento Wahyu portrait"
                   fill
                   sizes="144px"

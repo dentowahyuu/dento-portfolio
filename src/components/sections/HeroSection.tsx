@@ -2,6 +2,7 @@ import React from "react";
 import { CheckerDivider } from "@/components/common/CheckerDivider";
 import { MarqueeTicker } from "@/components/common/MarqueeTicker";
 import { Button } from "@/components/ui/Button";
+import { Icon } from "@/components/ui/Icon";
 
 export const HeroSection: React.FC = () => {
   return (
@@ -49,7 +50,7 @@ export const HeroSection: React.FC = () => {
               className="gap-2"
             >
               <span>View Work</span>
-              <span className="material-symbols-outlined text-sm">arrow_forward</span>
+              <Icon name="arrow_forward" size={16} />
             </Button>
 
             <Button
@@ -59,7 +60,7 @@ export const HeroSection: React.FC = () => {
               className="gap-2"
             >
               <span>Read Story</span>
-              <span className="material-symbols-outlined text-sm">menu_book</span>
+              <Icon name="menu_book" size={16} />
             </Button>
           </div>
 

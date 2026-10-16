@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Button } from "@/components/ui/Button";
+import { Icon } from "@/components/ui/Icon";
 
 export const ContactSection: React.FC = () => {
   const [copied, setCopied] = useState(false);
@@ -34,9 +35,7 @@ export const ContactSection: React.FC = () => {
 
           {/* Sticker 3 */}
           <div className="transform -rotate-2 bg-surface-container-highest text-primary-container px-5 py-3 rounded-full shadow-[4px_4px_0px_#1a3a2f] font-headline-sm text-headline-sm uppercase tracking-wider flex items-center gap-2 select-none hover:rotate-0 transition-transform border border-primary-container/20">
-            <span className="material-symbols-outlined text-secondary text-lg">
-              coffee
-            </span>
+            <Icon name="coffee" size={20} className="text-secondary" />
             <span>Pour-Over Fuelled</span>
           </div>
         </div>
@@ -66,18 +65,18 @@ export const ContactSection: React.FC = () => {
             className="gap-3 group"
           >
             <span>wahyudento08@gmail.com</span>
-            <span className="material-symbols-outlined text-lg group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
-              north_east
-            </span>
+            <Icon
+              name="north_east"
+              size={18}
+              className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+            />
           </Button>
 
           <button
             onClick={handleCopyEmail}
             className="px-5 py-4 bg-surface-bright text-primary-container rounded-full shadow-[3px_3px_0px_#1a3a2f] border border-primary-container hover:translate-x-[1px] hover:translate-y-[1px] transition-all font-label-stamp text-label-stamp uppercase tracking-wider flex items-center gap-2 cursor-pointer active:translate-x-[2px] active:translate-y-[2px]"
           >
-            <span className="material-symbols-outlined text-sm">
-              {copied ? "check" : "content_copy"}
-            </span>
+            <Icon name={copied ? "check" : "content_copy"} size={16} />
             <span>{copied ? "Copied!" : "Copy Email"}</span>
           </button>
         </div>
@@ -91,7 +90,7 @@ export const ContactSection: React.FC = () => {
             rel="noopener noreferrer"
             download="Resume_Dento_Wahyu.pdf"
           >
-            <span className="material-symbols-outlined text-base">description</span>
+            <Icon name="description" size={16} />
             <span>Download Resume (PDF)</span>
           </a>
           {/* <span className="text-outline-variant">•</span>

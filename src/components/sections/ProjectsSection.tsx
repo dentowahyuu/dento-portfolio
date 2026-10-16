@@ -5,6 +5,7 @@ import { CheckerDivider } from "@/components/common/CheckerDivider";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { Icon } from "@/components/ui/Icon";
 
 export const ProjectsSection: React.FC = () => {
   return (
@@ -38,7 +39,7 @@ export const ProjectsSection: React.FC = () => {
             className="gap-2 w-fit"
           >
             <span>View GitHub Profile</span>
-            <span className="material-symbols-outlined text-sm">north_east</span>
+            <Icon name="north_east" size={14} />
           </Button>
         </div>
 
@@ -128,7 +129,7 @@ export const ProjectsSection: React.FC = () => {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 text-xs font-headline-sm uppercase tracking-wider text-primary-container hover:text-secondary transition-colors font-bold"
                   >
-                    <span className="material-symbols-outlined text-sm">code</span>
+                    <Icon name="code" size={14} />
                     <span>Source Code</span>
                   </a>
                 ) : (
@@ -145,7 +146,7 @@ export const ProjectsSection: React.FC = () => {
                     className="inline-flex items-center gap-1 text-xs font-headline-sm uppercase tracking-wider text-secondary hover:underline font-bold"
                   >
                     <span>Live Demo</span>
-                    <span className="material-symbols-outlined text-xs">north_east</span>
+                    <Icon name="north_east" size={12} />
                   </a>
                 )}
               </div>

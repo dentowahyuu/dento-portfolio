@@ -4,12 +4,14 @@ import "./globals.css";
 
 const oswald = Oswald({
   subsets: ["latin"],
+  weight: ["500", "600", "700"],
   variable: "--font-oswald",
   display: "swap",
 });
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
+  weight: ["400", "500", "700"],
   variable: "--font-space-grotesk",
   display: "swap",
 });
@@ -44,12 +46,6 @@ export default function RootLayout({
       lang="en"
       className={`${oswald.variable} ${spaceGrotesk.variable} ${spaceMono.variable} scroll-smooth`}
     >
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-        />
-      </head>
       <body className="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary selection:text-on-secondary">
         {children}
       </body>
