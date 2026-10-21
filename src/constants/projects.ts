@@ -110,7 +110,7 @@ export const FEATURED_PROJECTS: Project[] = [
       label: "Procedural 3D & Web Audio",
     },
     tags: ["Three.js", "WebGL", "Web Audio API", "Vite", "JavaScript"],
-    demoUrl: "#",
+    demoUrl: "https://planefury.vercel.app/",
     githubUrl: "https://github.com/dentowahyuu/planefury",
   },
 ];
