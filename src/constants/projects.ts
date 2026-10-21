@@ -97,6 +97,22 @@ export const FEATURED_PROJECTS: Project[] = [
     demoUrl: "#",
     githubUrl: "https://github.com/dentowahyuu/absen-application",
   },
+  {
+    id: 7,
+    systemCode: "SYS-07 • 3D WEBGL ENGINE",
+    version: "v1.2",
+    title: "Planefury — 3D Procedural Flight Shooter",
+    description:
+      "High-octane 3D aerial combat runner with procedural biplane physics, dynamic vertex-wave ocean, real-time Web Audio synthesizer, enemy squad formations, and multi-phase dreadnought boss battle.",
+    image: "/projects/Project-Planefury.jpg",
+    metric: {
+      icon: "✈️",
+      label: "Procedural 3D & Web Audio",
+    },
+    tags: ["Three.js", "WebGL", "Web Audio API", "Vite", "JavaScript"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/dentowahyuu/planefury",
+  },
 ];
 
 export const ARCHITECTURAL_PILLARS: ArchitecturalPillar[] = [
