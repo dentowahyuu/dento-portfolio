@@ -104,7 +104,7 @@ export const FEATURED_PROJECTS: Project[] = [
     title: "Planefury — 3D Procedural Flight Shooter",
     description:
       "High-octane 3D aerial combat runner with procedural biplane physics, dynamic vertex-wave ocean, real-time Web Audio synthesizer, enemy squad formations, and multi-phase dreadnought boss battle.",
-    image: "/projects/Project-Planefury.jpg",
+    image: "/projects/Project-Planefury.png",
     metric: {
       icon: "✈️",
       label: "Procedural 3D & Web Audio",
