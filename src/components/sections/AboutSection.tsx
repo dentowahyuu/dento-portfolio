@@ -32,8 +32,8 @@ export const AboutSection: React.FC = () => {
               Operating at the intersection of robust system architecture and seamless
               user experiences. Over the past 2+ years, I&apos;ve been engineering
               end-to-end applications from resilient APIs and database structures with
-              Golang &amp; Node.js, to high-performance web interfaces with Next.js and
-              TypeScript.
+              Python, Laravel &amp; Node.js, to high-performance web interfaces with Next.js
+              and TypeScript.
             </p>
 
             <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
@@ -71,7 +71,7 @@ export const AboutSection: React.FC = () => {
               <div className="flex items-center gap-2 px-4 py-2 bg-surface-bright rounded-full shadow-[2px_2px_0px_#1a3a2f] border border-primary-container/20">
                 <Icon name="terminal" size={20} className="text-secondary" />
                 <span className="font-headline-sm text-headline-sm uppercase text-primary-container text-sm sm:text-base">
-                  Golang &amp; Node.js
+                  Python &amp; Node.js
                 </span>
               </div>
 
@@ -148,7 +148,7 @@ export const AboutSection: React.FC = () => {
                   <span className="text-secondary-container">&quot;2+ years&quot;</span>,
                 </div>
                 <div className="pl-4 text-surface-container-low">
-                  <span>backend:</span> [<span className="text-tertiary-fixed">&quot;Golang&quot;</span>, <span className="text-tertiary-fixed">&quot;Node.js&quot;</span>, <span className="text-tertiary-fixed">&quot;PostgreSQL&quot;</span>],
+                  <span>backend:</span> [<span className="text-tertiary-fixed">&quot;Python&quot;</span>, <span className="text-tertiary-fixed">&quot;Node.js&quot;</span>, <span className="text-tertiary-fixed">&quot;Laravel&quot;</span>, <span className="text-tertiary-fixed">&quot;PostgreSQL&quot;</span>],
                 </div>
                 <div className="pl-4 text-surface-container-low">
                   <span>frontend:</span> [<span className="text-tertiary-fixed">&quot;Next.js&quot;</span>, <span className="text-tertiary-fixed">&quot;TypeScript&quot;</span>, <span className="text-tertiary-fixed">&quot;Tailwind&quot;</span>],

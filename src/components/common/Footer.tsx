@@ -32,7 +32,8 @@ export const Footer: React.FC = () => {
             </div>
             <p className="font-body-md text-body-md text-surface-container-high max-w-md leading-relaxed">
               Design-Driven Full-Stack Engineer operating at the intersection of robust system
-              architecture with Golang &amp; Node.js, and high-performance interfaces with Next.js.
+              architecture with Python, Laravel &amp; Node.js, and high-performance interfaces with
+              Next.js.
             </p>
             <div className="font-label-code text-label-code text-primary-fixed-dim mt-space-sm flex items-center">
               <span className="inline-block mr-2">&gt;</span>Available for select

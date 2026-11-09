@@ -121,7 +121,7 @@ export const ARCHITECTURAL_PILLARS: ArchitecturalPillar[] = [
     title: "Full-Stack Engineering",
     description:
       "Architecting resilient end-to-end systems, integrating scalable back-end services with high-performance, responsive front-end applications.",
-    tags: ["GOLANG", "NODE.JS", "NEXT.JS"],
+    tags: ["PYTHON", "LARAVEL", "NODE.JS", "NEXT.JS"],
     accentColor: "primary",
   },
   {
@@ -148,9 +148,9 @@ export const MARQUEE_ITEMS = [
   "TYPESCRIPT",
   "NEXT.JS",
   "DOCKER",
-  "DISTRIBUTED SYSTEMS",
+  "PYTHON & FASTAPI",
   "TAILWIND",
-  "GO & POSTGRESQL",
-  "GRAPHQL",
+  "NODE.JS & POSTGRESQL",
+  "LARAVEL & MYSQL",
   "CI/CD EXCELLENCE",
 ];

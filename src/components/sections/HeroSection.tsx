@@ -72,7 +72,7 @@ export const HeroSection: React.FC = () => {
             </div>
             <div className="flex items-center gap-2 px-3.5 py-1.5 bg-surface-bright rounded-full border border-primary-container/20 shadow-[2px_2px_0px_#1a3a2f] text-label-code text-xs font-label-code text-on-surface-variant">
               <span className="text-secondary font-bold">⚡</span>
-              <span>NEXT.JS • TYPESCRIPT • GOLANG • NODE</span>
+              <span>NEXT.JS • TYPESCRIPT • PYTHON • NODE.JS</span>
             </div>
             <div className="flex items-center gap-2 px-3.5 py-1.5 bg-surface-bright rounded-full border border-primary-container/20 shadow-[2px_2px_0px_#1a3a2f] text-label-code text-xs font-label-code text-on-surface-variant">
               <span className="text-secondary font-bold">📍</span>

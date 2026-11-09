@@ -8,7 +8,7 @@ export const ContactSection: React.FC = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("hello@dentowahyu.dev");
+    navigator.clipboard.writeText("wahyudento08@gmail.com");
     setCopied(true);
     setTimeout(() => {
       setCopied(false);
