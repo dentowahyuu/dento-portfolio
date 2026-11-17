@@ -113,6 +113,22 @@ export const FEATURED_PROJECTS: Project[] = [
     demoUrl: "https://planefury.vercel.app/",
     githubUrl: "https://github.com/dentowahyuu/planefury",
   },
+  {
+    id: 8,
+    systemCode: "SYS-08 • B2B SALES & AI ANALYTICS",
+    version: "v2.0",
+    title: "INSIST SalesApp — Smart B2B Sales & AI Analytics",
+    description:
+      "Enterprise B2B sales management platform equipped with AI-powered analytics to track transactions, evaluate sales performance gaps, generate strategic recommendations, and prioritize urgent client follow-ups.",
+    image: "/projects/Project-SalesApp.jpg",
+    metric: {
+      icon: "📈",
+      label: "AI Sales Analytics & Client Priority",
+    },
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "AI Analytics", "Tailwind CSS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
 ];
 
 export const ARCHITECTURAL_PILLARS: ArchitecturalPillar[] = [

@@ -22,7 +22,7 @@ export const ProjectsSection: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 font-label-stamp text-label-stamp tracking-widest text-primary-fixed-dim uppercase mb-2">
               <span>CASE STUDIES</span>
-              <span>//</span>
+              <span>{"//"}</span>
               <span>PRODUCTION SHOWCASE</span>
             </div>
             <h2 className="font-headline-lg text-headline-lg uppercase tracking-tight text-surface-bright text-4xl lg:text-5xl">
@@ -135,7 +135,9 @@ export const ProjectsSection: React.FC = () => {
                   </a>
                 ) : (
                   <span className="text-[11px] font-label-code text-on-surface-variant italic">
-                    Design Concept
+                    {project.tags.includes("Figma")
+                      ? "Design Concept"
+                      : "Enterprise System"}
                   </span>
                 )}
 
