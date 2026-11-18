@@ -48,10 +48,10 @@ export const AboutSection: React.FC = () => {
                 Get In Touch
               </Button>
               <Button
-                href="/Resume_Dento_Wahyu.pdf"
+                href="/Resume_Dento_Wahyu_Suseno.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Resume_Dento_Wahyu.pdf"
+                download="Resume_Dento_Wahyu_Suseno.pdf"
                 variant="surface"
                 size="md"
               >

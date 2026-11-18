@@ -85,10 +85,10 @@ export const ContactSection: React.FC = () => {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-6 font-label-code text-label-code text-on-surface-variant">
           <a
             className="inline-flex items-center gap-1.5 hover:text-secondary transition-colors underline decoration-secondary decoration-2 underline-offset-4"
-            href="/Resume_Dento_Wahyu.pdf"
+            href="/Resume_Dento_Wahyu_Suseno.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="Resume_Dento_Wahyu.pdf"
+            download="Resume_Dento_Wahyu_Suseno.pdf"
           >
             <Icon name="description" size={16} />
             <span>Download Resume (PDF)</span>
