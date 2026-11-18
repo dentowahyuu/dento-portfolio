@@ -129,6 +129,22 @@ export const FEATURED_PROJECTS: Project[] = [
     demoUrl: "#",
     githubUrl: "#",
   },
+  {
+    id: 9,
+    systemCode: "SYS-09 • MOBILITY MARKETPLACE",
+    version: "v1.0",
+    title: "Lajoy — Car Rental & Dispatcher Marketplace",
+    description:
+      "Multi-service mobility marketplace for booking self-drive cars, professional drivers, or car-plus-driver packages, complete with a dispatcher command center and real-time fleet presence.",
+    image: "/projects/Project-Lajoy.jpg",
+    metric: {
+      icon: "🚗",
+      label: "Real-Time Fleet & Dispatcher Sync",
+    },
+    tags: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS", "Real-Time Sync"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
 ];
 
 export const ARCHITECTURAL_PILLARS: ArchitecturalPillar[] = [
